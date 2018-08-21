@@ -10,6 +10,23 @@ namespace Algorithms
     {
         public static bool IsCharsUnique(this string givenString)
         {
+
+            for (int i = 0; i < givenString.Length - 1; i++)
+            {
+                for (int j = i + 1; j < givenString.Length; j++)
+                {
+                    if (givenString[j] == givenString[i])
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        public static bool IsCharsUniqueINDEXOF(this string givenString)
+        {
             string temp = "";
 
             foreach (char c in givenString)
@@ -23,7 +40,7 @@ namespace Algorithms
                 {
                     return false;
                 }
-            }           
+            }
 
             return true;
         }

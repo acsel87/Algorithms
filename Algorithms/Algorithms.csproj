@@ -49,6 +49,7 @@
     <Compile Include="DuplicateChars.cs" />
     <Compile Include="MostUsedChar.cs" />
     <Compile Include="PalindromeString.cs" />
+    <Compile Include="PerformanceMonitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseString.cs" />
