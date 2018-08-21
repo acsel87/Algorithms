@@ -48,6 +48,7 @@
     <Compile Include="CountWords.cs" />
     <Compile Include="DuplicateChars.cs" />
     <Compile Include="MostUsedChar.cs" />
+    <Compile Include="PadArray.cs" />
     <Compile Include="PalindromeString.cs" />
     <Compile Include="PerformanceMonitor.cs" />
     <Compile Include="Program.cs" />

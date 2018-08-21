@@ -11,7 +11,10 @@ namespace Algorithms
         static void Main(string[] args)
         {
             string ex1 = "123456789-0=qwertyuiop[]asdfghjkl;'zxcvbnm,./1dasda";
-            string ex2 = "sad";
+            string ex2 = "12";
+
+            int[] intArray = { 1, 2, 3};
+            int pad = 1;
 
             //PerformanceMonitor.GetMilliseconds(1, 100, () => ex1.IsCharsUnique(), () => ex1.IsCharsUniqueINDEXOF(), () => ex1.IsCharsUniqueLINQ());
 
@@ -37,6 +40,9 @@ namespace Algorithms
             //Console.WriteLine($"All chars in {ex1} are unique: {ex1.IsCharsUnique()}");
             //Console.WriteLine($"All chars in {ex1} are unique: {ex1.IsCharsUniqueINDEXOF()}");
             //Console.WriteLine($"All chars in {ex1} are unique: {ex1.IsCharsUniqueLINQ()}");
+
+            //Console.WriteLine($"{string.Join("", intArray)} padded by {pad}: {string.Join("", intArray.PadAnyArray(pad))}");
+            //Console.WriteLine($"{string.Join("", intArray)} padded by {-pad}: {string.Join("", intArray.PadAnyArray(-pad))}");
 
             Console.ReadLine();            
         }
