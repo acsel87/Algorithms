@@ -11,6 +11,8 @@ namespace Algorithms
     {
         /// <summary>
         /// Monitor n methods looped for 'runTimes' times. Process is repeated 'avgOfTimes' times and averaged 
+        /// 
+        /// - needs accuracy checking - compare with Run method
         /// </summary>
         /// <param name="runTimes"></param>
         /// <param name="methods"></param>

@@ -14,7 +14,8 @@ namespace Algorithms
 
             for (int i = 0; i < givenArray.Length; i++)
             {
-                newArray[Math.Abs(givenArray.Length - i + index) % givenArray.Length] = givenArray[i];
+                newArray[Math.Abs(i + index) % givenArray.Length] = givenArray[i]; // this works for positive padding
+                //newArray[Math.Abs(givenArray.Length - i + index) % givenArray.Length] = givenArray[i]; // Fail:this should've worked for both positive and negative
             }
 
             return newArray;
@@ -46,6 +47,6 @@ namespace Algorithms
 //              123     1    23
 //              231     |   2 3
 //                      |   23 
-//                      |    231
-//                      |      ^
-//                      |______|
+//                      |   231
+//                      |     ^
+//                      |_____|

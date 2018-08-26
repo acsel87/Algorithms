@@ -47,13 +47,20 @@
     <Compile Include="AnagramString.cs" />
     <Compile Include="CountWords.cs" />
     <Compile Include="DuplicateChars.cs" />
+    <Compile Include="FindGCM.cs" />
+    <Compile Include="FindLCM.cs" />
     <Compile Include="MostUsedChar.cs" />
+    <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="PadArray.cs" />
     <Compile Include="PalindromeString.cs" />
     <Compile Include="PerformanceMonitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseString.cs" />
+    <Compile Include="SortArray.cs" />
+    <Compile Include="SumOfTwoIntInArray.cs" />
+    <Compile Include="SwapMinMaxArray.cs" />
+    <Compile Include="WaysToClimbStairs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
